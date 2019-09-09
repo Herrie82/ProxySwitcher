@@ -5,16 +5,16 @@ enyo.kind({
   style: "width: 100%;",
   align: "center",
   components: [
-  	{kind: "Header", style: "width: 100%;", align: "center", content: "ProxySwitch - by Robert Hesse"},
+  	{kind: "Header", style: "width: 100%;", align: "center", content: "ProxySwitch - by Robert Hesse, Herman van Hazendonk"},
   
   	{kind: "RowGroup", caption: "Proxy Settings", style: "width: 350px; margin-top: 20px;", align: "center", components: [
 		{kind: "HFlexBox", align: "center" , components: [
       		{content: "Proxy URL:", flex: 2},
-			{name: "proxyURL", kind: "Input", flex: 3, value: "10.128.1.69", onchange: "setPrefs"}
+			{name: "proxyURL", kind: "Input", flex: 3, value: "127.0.0.1", onchange: "setPrefs"}
     	]},
 		{kind: "HFlexBox", align: "center" , components: [
       		{content: "Proxy Port:", flex: 2},		
-        	{name: "proxyPort", kind: "Input", flex:3, value: "80", onchange: "setPrefs"}
+        	{name: "proxyPort", kind: "Input", flex:3, value: "3128", onchange: "setPrefs"}
     	]}
 	]},
     
