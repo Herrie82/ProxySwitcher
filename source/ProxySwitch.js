@@ -2,7 +2,6 @@ enyo.kind({
     name: "ProxySwitch",
     kind: enyo.VFlexBox,
     layoutKind: "VFlexLayout",
-    style: "width: 100%;",
     align: "center",
     components: [{
             kind: "Header",
@@ -15,7 +14,7 @@ enyo.kind({
         {
             kind: "RowGroup",
             caption: "Proxy Settings",
-            style: "width: 350px; margin-top: 5px;",
+            style: "margin-top: 5px;",
             align: "center",
             components: [{
                     kind: "HFlexBox",
@@ -53,14 +52,14 @@ enyo.kind({
         },
         {
             kind: "Button",
-            style: "width: 350px;",
+            style: "width: 290px;",
             align: "center",
             caption: "Turn Proxy On",
             onclick: "btnAddClick"
         },
         {
             kind: "Button",
-            style: "width: 350px;",
+            style: "width: 290px;",
             align: "center",
             caption: "Turn Proxy Off",
             onclick: "btnRmvClick"
@@ -70,7 +69,7 @@ enyo.kind({
             name: "ReturnValue",
             kind: "Control",
             content: "",
-            style: "width: 350px; text-align: center; padding: 5px; margin-top: 5px; border-radius: 7px; font-weight: bold;"
+            style: "width: 310px; text-align: center; padding: 5px; margin-top: 5px; border-radius: 7px; font-weight: bold;"
         },
 
         {
