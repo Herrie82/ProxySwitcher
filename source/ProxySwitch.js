@@ -6,15 +6,16 @@ enyo.kind({
     align: "center",
     components: [{
             kind: "Header",
-            style: "width: 100%;",
+            style: "width: 100%; font-weight: bold;",
             align: "center",
-            content: "ProxySwitch - by Robert Hesse, Herman van Hazendonk"
+            halign: "center",
+            content: "ProxySwitch"
         },
 
         {
             kind: "RowGroup",
             caption: "Proxy Settings",
-            style: "width: 350px; margin-top: 20px;",
+            style: "width: 350px; margin-top: 5px;",
             align: "center",
             components: [{
                     kind: "HFlexBox",
@@ -69,7 +70,7 @@ enyo.kind({
             name: "ReturnValue",
             kind: "Control",
             content: "",
-            style: "width: 350px; text-align: center; padding: 10px; margin-top: 20px; border-radius: 7px;"
+            style: "width: 350px; text-align: center; padding: 5px; margin-top: 5px; border-radius: 7px; font-weight: bold;"
         },
 
         {
@@ -139,12 +140,12 @@ enyo.kind({
     },
 
     proxyAddSuccess: function(inSender, inResponse) {
-        this.$.ReturnValue.setContent("Proxy is on.");
+        this.$.ReturnValue.setContent("Proxy is on");
         this.$.ReturnValue.applyStyle("background-color", "green");
     },
 
     proxyRmvSuccess: function(inSender, inResponse) {
-        this.$.ReturnValue.setContent("Proxy is off.");
+        this.$.ReturnValue.setContent("Proxy is off");
         this.$.ReturnValue.applyStyle("background-color", "red");
     },
 

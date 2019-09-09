@@ -1,0 +1,23 @@
+.enyo-hflexbox {
+    max-height: 36px;
+}
+
+.enyo-input {
+    font-size: .8rem;
+    font-weight: bold;
+    max-height: 24px;
+}
+
+.enyo-input.enyo-input-focus {
+    font-size: .8rem;
+    font-weight: bold;
+    max-height: 24px;
+}
+
+.enyo-input > .enyo-input-spacing {
+    margin: -10px -10px;
+}
+
+.enyo-input-input {
+    font-weight: bold;
+}
