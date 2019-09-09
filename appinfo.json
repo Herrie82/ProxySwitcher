@@ -1,7 +1,7 @@
 {
   "id": "com.palm.proxyswitch",
-  "version": "1.1.0",
-  "vendor": "Robert Hesse",
+  "version": "1.2.0",
+  "vendor": "Robert Hesse, Herman van Hazendonk",
   "type": "web",
   "main": "index.html",
   "title": "ProxySwitch",
