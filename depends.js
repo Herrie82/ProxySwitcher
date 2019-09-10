@@ -1,4 +1,4 @@
 enyo.depends(
-  "source/ProxySwitch.js",
-  "css/ProxySwitch.css"
+  "source/ProxySwitcher.js",
+  "css/ProxySwitcher.css"
 );

@@ -1,5 +1,5 @@
 enyo.kind({
-    name: "ProxySwitch",
+    name: "ProxySwitcher",
     kind: enyo.VFlexBox,
     layoutKind: "VFlexLayout",
     align: "center",
@@ -8,7 +8,7 @@ enyo.kind({
             style: "width: 100%; font-weight: bold;",
             align: "center",
             halign: "center",
-            content: "ProxySwitch"
+            content: "ProxySwitcher"
         },
 
         {
